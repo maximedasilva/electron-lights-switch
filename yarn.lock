@@ -1141,7 +1141,23 @@
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.2.tgz#8f03a22a04de437254e8ce8cc84ba39689288752"
   integrity sha512-HyYEUDeIj5rRQU2Hk5HTB2uHsbRQpF70nvMhVzi+VJR0X+xNEhjPui4/kBf3VeH/wqD28PT4sVOm8qqLjBrSZg==
 
-"@electron/get@^1.0.1", "@electron/get@^1.6.0":
+"@electron/get@^1.13.0":
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/@electron/get/-/get-1.13.1.tgz#42a0aa62fd1189638bd966e23effaebb16108368"
+  integrity sha512-U5vkXDZ9DwXtkPqlB45tfYnnYBN8PePp1z/XDCupnSpdrxT8/ThCv9WCwPLf9oqiSGZTkH6dx2jDUPuoXpjkcA==
+  dependencies:
+    debug "^4.1.1"
+    env-paths "^2.2.0"
+    fs-extra "^8.1.0"
+    got "^9.6.0"
+    progress "^2.0.3"
+    semver "^6.2.0"
+    sumchecker "^3.0.1"
+  optionalDependencies:
+    global-agent "^3.0.0"
+    global-tunnel-ng "^2.7.1"
+
+"@electron/get@^1.6.0":
   version "1.12.4"
   resolved "https://registry.yarnpkg.com/@electron/get/-/get-1.12.4.tgz#a5971113fc1bf8fa12a8789dc20152a7359f06ab"
   integrity sha512-6nr9DbJPUR9Xujw6zD3y+rS95TyItEVM0NVjt1EehY2vUWfIgPiIPVHxCvaTS0xr2B+DRxovYVKbuOWqC35kjg==
@@ -2661,12 +2677,12 @@ electron-to-chromium@^1.3.896:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.16.tgz#38ddecc616385e6f101359d1b978c802664157d2"
   integrity sha512-BQb7FgYwnu6haWLU63/CdVW+9xhmHls3RCQUFiV4lvw3wimEHTVcUk2hkuZo76QhR8nnDdfZE7evJIZqijwPdA==
 
-electron@13.6.3:
-  version "13.6.3"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-13.6.3.tgz#c0217178807d3e0b2175c49dbe33ea8dac447e73"
-  integrity sha512-kevgR6/RuEhchJQbgCKhHle9HvJhi2dOJlicFZJqbbqa9BVpZARqqFDlwTSatYxmUPUJwu09FvyMwJG2DMQIng==
+electron@16.0.8:
+  version "16.0.8"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-16.0.8.tgz#7ebd3e23c4883c239f53d8b7af1100f455ac8a02"
+  integrity sha512-znTVkl8LaGcPNdfc6SRr+6LYg2GtSCKXln/nW/PC+urBfAFnOYIuDock8QyGVFfzr5PuAa+g8YQQAboHV77D7g==
   dependencies:
-    "@electron/get" "^1.0.1"
+    "@electron/get" "^1.13.0"
     "@types/node" "^14.6.2"
     extract-zip "^1.0.3"
 
@@ -3524,6 +3540,18 @@ global-agent@^2.0.2:
   dependencies:
     boolean "^3.0.1"
     core-js "^3.6.5"
+    es6-error "^4.1.1"
+    matcher "^3.0.0"
+    roarr "^2.15.3"
+    semver "^7.3.2"
+    serialize-error "^7.0.1"
+
+global-agent@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/global-agent/-/global-agent-3.0.0.tgz#ae7cd31bd3583b93c5a16437a1afe27cc33a1ab6"
+  integrity sha512-PT6XReJ+D07JvGoxQMkT6qji/jVNfX/h364XHZOWeRzy64sSFr+xJ5OX7LI3b4MPQzdL4H8Y8M0xzPpsVMwA8Q==
+  dependencies:
+    boolean "^3.0.1"
     es6-error "^4.1.1"
     matcher "^3.0.0"
     roarr "^2.15.3"
