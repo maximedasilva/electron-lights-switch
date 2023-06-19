@@ -1198,10 +1198,10 @@
   resolved "https://registry.yarnpkg.com/@poool/eslint-config-react/-/eslint-config-react-1.5.1.tgz#081ca5402bd08e0beb755531d40901b5506029f0"
   integrity sha512-BUleqUx/9LbnWlnlN2pXutf9Is/7kydjuuLZweY+fGFUsl5wrsGz7XjiGHosAR4WajPgRtFk2edMbv4y5mbyaw==
 
-"@poool/eslint-config@1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@poool/eslint-config/-/eslint-config-1.5.0.tgz#0498fb0a1925a027abb2e398db9ff9420b57d6b2"
-  integrity sha512-oWGb+k6Nk2/mY0993ui4pFCzW52y/rjMd0Gm4MXzVui7kUF+PRqjIpsvIPmW1QBoQVuQXVnsx/7MgZ+yiHk8Hg==
+"@poool/eslint-config@1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@poool/eslint-config/-/eslint-config-1.5.2.tgz#2c451298301dffe61d3642d2488b7414aba53a5c"
+  integrity sha512-/LZuzVwJu/GuYR5nz6q40DTUwW6j/LLIMW0ArpJVVFGMChc8C5cxlW2G0uo5HIYeSzOmWWVa5S0fTY0F2ZdhqA==
 
 "@poool/eslint-plugin@1.5.0":
   version "1.5.0"
