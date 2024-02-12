@@ -1193,10 +1193,10 @@
   dependencies:
     cross-spawn "^7.0.1"
 
-"@poool/eslint-config-react@1.5.1":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@poool/eslint-config-react/-/eslint-config-react-1.5.1.tgz#081ca5402bd08e0beb755531d40901b5506029f0"
-  integrity sha512-BUleqUx/9LbnWlnlN2pXutf9Is/7kydjuuLZweY+fGFUsl5wrsGz7XjiGHosAR4WajPgRtFk2edMbv4y5mbyaw==
+"@poool/eslint-config-react@1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@poool/eslint-config-react/-/eslint-config-react-1.5.2.tgz#8f3c194ac4f38b37a2c29cbcef72c17d863f7efb"
+  integrity sha512-CPSiJZUe2eX2BskS8RmHzZfvY7kZmRSzU/AY7h/rolCl+MFAXJpmCvIeNv31ribf/illfuDq/+R3j3V6YBlezA==
 
 "@poool/eslint-config@1.5.0":
   version "1.5.0"
